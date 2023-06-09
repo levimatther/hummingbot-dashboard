@@ -1,0 +1,17 @@
+name: dashboard
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - sqlalchemy
+  - pip
+  - pip:
+      - ccxt
+      - streamlit
+      - watchdog
+      - plotly
+      - pycoingecko
+      - glom
+      - defillama
+      - statsmodels
+      - pandas_ta
